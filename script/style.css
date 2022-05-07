@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* navbar */
+
+.navbar-nav {
+    margin-right: 0 !important;
+    padding-right: 100px;
+}
+
+.navbar {
+    background-color: #0a193d;
+    color: white !important;
+}
+
+.nav-item a {
+    color: white !important;
+}
+
+.nav-item {
+    padding-left: 2px;
+}
+
+.navbar-brand {
+    color: white !important;
+    padding-left: 100px;
+}
+
+#navbar button {
+    color: white !important;
+}
+
+/* hero background image */
+.bgimage {
+    height:130vh; 
+    background: url('./../images/background.jpg');
+    background-size:cover;
+    position:relative;
+    /* height: 100px;
+    width: 100px; */
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 2.5rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+}
+
+.servicesIcon {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
+}
+
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* footer styling */
+.footer {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+    color: #6c757d;
+}
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+
+#contact {
+    padding-bottom: 4rem;
+}
